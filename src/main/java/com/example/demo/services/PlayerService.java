@@ -1,7 +1,6 @@
-package com.example.demo.Services;
+package com.example.demo.services;
 
 import com.example.demo.model.Player;
-import org.apache.commons.lang3.builder.CompareToBuilder;
 import reactor.core.publisher.Flux;
 
 import static java.lang.Integer.compare;
