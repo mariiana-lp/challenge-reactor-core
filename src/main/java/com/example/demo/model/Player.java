@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.model;
 
 public class Player {
     public int id;
@@ -87,5 +87,19 @@ public class Player {
 
     public void setClub(String club) {
         this.club = club;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Player{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", icon='" + icon + '\'' +
+                ", national='" + national + '\'' +
+                ", winners=" + winners +
+                ", games=" + games +
+                ", club='" + club + '\'' +
+                '}';
     }
 }
